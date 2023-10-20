@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AS Task-gird</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            gap: 20px;
+            background-color: black;
+            grid-auto-rows: 200px;
+        }
+
+        #onee {
+            grid-column: 1/5;
+        }
+
+        #two {
+            grid-column: 5/7;
+        }
+
+        #three {
+            grid-column: 1/2;
+        }
+
+        #four {
+            grid-column: 2/6;
+        }
+
+        #five {
+            grid-column: 6/7;
+        }
+
+        #six {
+            grid-column: 1/4;
+        }
+
+        #seven {
+            grid-column: 4/7;
+        }
+
+        #eight {
+            grid-column: 1/3;
+        }
+
+        #nine {
+            grid-column: 3/5;
+        }
+
+        #ten {
+            grid-column: 5/7;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: white;
+            margin-top: 40px;
+            margin-left: 50px;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .one-1 {
+            color: white;
+            background-color: black;
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-size: 22px;
+            margin-left: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .face {
+            margin: 15px;
+            font-size: 25px;
+        }
+
+        .face:hover {
+            color: #4444e7ee;
+        }
+
+        #eleven {
+            grid-row: 1/5;
+            grid-column: 7/8;
+        }
+
+        nav>a:hover {
+            color: red;
+        }
+
+        .twi:hover {
+            color: skyblue;
+        }
+
+        .twi {
+            margin: 15px;
+            font-size: 25px;
+        }
+
+        .insta:hover {
+            color: brown;
+        }
+
+        .insta {
+            margin: 15px;
+            font-size: 25px;
+        }
+
+        @media (min-width:320px)and (max-width:550px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                background-color: skyblue;
+            }
+
+            img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .one-1 {
+                position: fixed;
+                top: 0;
+                height: 120px;
+                width: 100%;
+                background-color: rgba(11, 168, 240, 0.462) !important;
+            }
+
+            nav {
+                display: flex;
+                position: fixed;
+                top: 0;
+                margin-top: 20px;
+            }
+
+            a {
+                margin-left: 30px;
+            }
+
+            #onee {
+                margin-top: 105px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="swimming man.avif" class="one" id="onee" width="100%" height="300px">
+
+        <img src="Man-in-a-Cave.webp" alt="" class="one" id="two" width="100px">
+
+        <div class="one-1" id="eleven">
+            <h2>SHUTTER</h2>
+
+            <nav>
+                <A href="#" style="color: red;"> HOME </A>
+                <a href="#">PHOTOS</a>
+                <a href="#">BIO</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+            </nav>
+
+            <i class="fa face fa-facebook"></i>
+            <i class="fa twi fa-twitter"></i>
+            <i class="fa insta fa-instagram"></i>
+
+        </div>
+
+        <img src="girl-03.avif" alt="" class="one" id="three">
+
+        <img src="tree-01.webp" class="one" id="four">
+
+        <img src="two-girls.avif" class="one" id="five">
+
+        <img src="smily-gir-01l.avif"
+            class="one" id="six" height="300px" width="100%">
+
+        <img src="smily-girl.avif" alt="" class="one" id="seven">
+
+        <img src="home-04.avif" alt="" class="one" id="eight">
+
+        <img src="sea-image.avif" alt="" class="one" id="nine">
+
+        <img src="bridge-image.avif" alt="" class="one" id="ten">
+
+    </div>
+
+</body>
+
+</html>
